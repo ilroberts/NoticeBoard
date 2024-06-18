@@ -6,6 +6,10 @@ on:
       - 'master'
       - 'release*'
 
+env:
+  name: SSL_CERT_DIR
+  value: "/Users/iwanr/.certificates"
+        
 jobs:
 
   test:
